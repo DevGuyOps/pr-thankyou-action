@@ -1,5 +1,8 @@
 name: "Pull Request Thank You"
 description: "Post a comment to a Pull Request thanking the user for their submission"
+branding:
+  icon: "message-circle"
+  color: "green"
 inputs:
   GITHUB_TOKEN:
     description: "Github token of the repository (automatically created by Github)"
