@@ -7,7 +7,7 @@ This is a Github Action that will post a comment to a Pull Request thanking the 
 ### Sample
 ```
 - name: 'Pull Request Thank You'
-  uses: GuySWatson/pr-thankyou-action
+  uses: GuySWatson/pr-thankyou-action@v1.1
   with:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -24,7 +24,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: 'Pull Request Thank You'
-      uses: GuySWatson/pr-thankyou-action
+      uses: GuySWatson/pr-thankyou-action@v1.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
