@@ -1,0 +1,24 @@
+{
+  "name": "pr-thankyou-action",
+  "version": "1.0.0",
+  "description": "## What is it? This is a Github Action that will post a comment to a Pull Request thanking the user for their submission.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuySWatson/pr-thankyou-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuySWatson/pr-thankyou-action/issues"
+  },
+  "homepage": "https://github.com/GuySWatson/pr-thankyou-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
